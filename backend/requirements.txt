@@ -7,4 +7,12 @@ python-multipart==0.0.6
 email-validator==2.1.0
 bcrypt==4.0.1
 PyJWT==2.8.0
-python-jose[cryptography]==3.3.0
+python-jose[cryptography]==3.3.0-e 
+httpx==0.28.1
+geopy==2.4.0
+pusher==3.0.0
+pyotp==2.9.0
+qrcode[pil]==7.4.2
+reportlab==4.0.4
+pytube==15.0.0
+websockets==14.2
