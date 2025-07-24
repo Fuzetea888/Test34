@@ -176,6 +176,9 @@ backend:
         - working: true
           agent: "main"
           comment: "Enum for service categories: ménage, garde_enfants, bricolage, etc."
+        - working: true
+          agent: "testing"
+          comment: "All service categories working perfectly. Tested menage, garde_enfants, bricolage, jardinage, soutien_scolaire, and aide_seniors. Provider profiles can be created with any combination of these services. Service filtering in provider discovery working correctly."
 
 frontend:
   - task: "Authentication UI"
