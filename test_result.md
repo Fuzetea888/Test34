@@ -161,6 +161,9 @@ backend:
         - working: true
           agent: "main"
           comment: "Complete booking CRUD with status management and price calculation"
+        - working: true
+          agent: "testing"
+          comment: "Booking system fully operational. Booking creation with automatic price calculation working correctly. Booking retrieval for both clients and providers functional. Booking status updates working properly. Only clients can create bookings, proper authorization checks in place. All booking statuses (pending, confirmed, in_progress, completed, cancelled) supported."
 
   - task: "Service Categories"
     implemented: true
